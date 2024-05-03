@@ -38,7 +38,7 @@ void loop() {
     else {
       sharp = 0;
     }
-    delay(500);
+    while(analogRead(axisX) <= 341 && analogRead(axisY) <= 341); //Uses the analogReads as opposed to the ints to avoid the problem of the ints not updating
   }
   else if(0 <= x && x <= 341 && 341 <= y && y <= 682) {
     if(sharp == 0) {

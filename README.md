@@ -2,7 +2,6 @@
 
 This project was created because of inspiration from a minigame in Final Fantasy 7 Rebirth. It is a joystick attached to an arduino and buzzer which plays notes of differing frequencies depending on where the joystick is positioned. The pad is split into 9 regions - akin to an analog keypad - each of which has their own function. The center region 5 is dead space for when you don't want to play any notes. Regions 8-4 (On a keypad) form a counter clockwise wheel of keys from A to G, and region 7 swaps the notes played from their normal notes to their sharp variants and vise versa.
 # A visual representation of the joystick zones:
-![image](https://github.com/user-attachments/assets/2f28a67c-af3b-404b-8b0b-e4b22da0f322)
 ![sample SVG image](https://github.com/RASacker/Arduino_Joystick_Piano/blob/main/diagram.svg)
 
 # A few images of the project:
